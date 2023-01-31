@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Noto+Sans:wght@500&family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     background-color: #2daa6d;
+     color: #5f5f5f;
+
+}
+.bloco{
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 333px;
+    position: relative;
+    margin-top: 60px;
+}
+.bloco h1{
+    color: #2daa6d;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-family: "poppins";
+    font-weight: 600;
+}
+p{
+    font-family: "Poppins";
+    font-weight: 600;
+}
+label{
+    font-family: "poppins";
+    font-weight: 500;
+    font-size: 0.9em;
+}
+input{
+    background-color: #DDDDDD;
+    border: none;
+    outline: none;
+    padding: 9px;
+    margin: 5px 0;
+    border-radius: 5px;
+    color: #484848;
+    font-size: 15px;
+    font-family: "poppins";
+}
+button{
+    background-color: #36d285;
+    border: none;
+    padding: 0.8rem 1rem;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 17px;
+
+}
+button:hover{
+    background-color: #2daa6d;
+}
+.nomeidade{
+    display: flex;
+    justify-content: space-between;
+
+}
+.nome{
+    width: 65%;
+}
+.idade{
+    width: 30%;
+}
+input[type=email]{
+    width: 100%;
+}
+.radio{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+p{
+    margin: 10px 0 5px 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-between;
+}
+img{
+    width: 150px;
+    height: 90px;
+    position: absolute;
+    top: -90px;
+    transform: translateX(40%);
+
+}
